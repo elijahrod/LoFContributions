@@ -1,4 +1,4 @@
- // ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
 import 'package:lab_on_fhir_flutter/Navigation.dart';
 
@@ -14,7 +14,6 @@ class homeScreenPageState extends State<homeScreenPage> {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: "route",
         theme: ThemeData(primarySwatch: Colors.cyan),
         home: Scaffold(
           body: Container(
@@ -89,7 +88,8 @@ class homeScreenPageState extends State<homeScreenPage> {
                       style: ElevatedButton.styleFrom(
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(50)),
-                          fixedSize: const Size(300, 100))), //button size stuff
+                          fixedSize:
+                              const Size(300, 100))), //button size attributes
                   SizedBox(height: 32.0), //spacer
                 ]),
           ),
