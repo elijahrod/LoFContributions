@@ -44,8 +44,8 @@ class NavigationScreenPageState extends State<Navigation> {
               //bottom navigation bar construction
               backgroundColor: Colors.cyan, //sets background of navbar
               iconSize: 40, //sets icon size
-              type: BottomNavigationBarType
-                  .fixed, //prevents weird animation stuff
+              type:
+                  BottomNavigationBarType.fixed, //prevents  animation of icons
               selectedItemColor: Colors.white,
               currentIndex: currentIndex,
               onTap: (index) => setState(() => currentIndex = index),
@@ -109,8 +109,7 @@ class NavigationScreenPageStateDiabetes extends State<NavigationDiabetes> {
               //bottom navigation bar construction
               backgroundColor: Colors.cyan, //sets background of navbar
               iconSize: 40, //sets icon size
-              type: BottomNavigationBarType
-                  .fixed, //prevents weird animation stuff
+              type: BottomNavigationBarType.fixed, //prevents animation of icons
               selectedItemColor: Colors.white,
               currentIndex: currentIndex,
               onTap: (index) => setState(() => currentIndex = index),
@@ -174,8 +173,8 @@ class NavigationScreenPageStateFitness extends State<NavigationFitness> {
               //bottom navigation bar construction
               backgroundColor: Colors.cyan, //sets background of navbar
               iconSize: 40, //sets icon size
-              type: BottomNavigationBarType
-                  .fixed, //prevents weird animation stuff
+              type:
+                  BottomNavigationBarType.fixed, //prevents  animation of icons
               selectedItemColor: Colors.white,
               currentIndex: currentIndex,
               onTap: (index) => setState(() => currentIndex = index),
@@ -240,8 +239,8 @@ class NavigationScreenPageStateFitnessHistory
               //bottom navigation bar construction
               backgroundColor: Colors.cyan, //sets background of navbar
               iconSize: 40, //sets icon size
-              type: BottomNavigationBarType
-                  .fixed, //prevents weird animation stuff
+              type:
+                  BottomNavigationBarType.fixed, //prevents  animation of icons
               selectedItemColor: Colors.white,
               currentIndex: currentIndex,
               onTap: (index) => setState(() => currentIndex = index),
@@ -305,8 +304,8 @@ class NavigationScreenPageStateCardiac extends State<NavigationCardiac> {
               //bottom navigation bar construction
               backgroundColor: Colors.cyan, //sets background of navbar
               iconSize: 40, //sets icon size
-              type: BottomNavigationBarType
-                  .fixed, //prevents weird animation stuff
+              type:
+                  BottomNavigationBarType.fixed, //prevents  animation of icons
               selectedItemColor: Colors.white,
               currentIndex: currentIndex,
               onTap: (index) => setState(() => currentIndex = index),
@@ -371,8 +370,8 @@ class NavigationScreenPageStateCardiacHistory
               //bottom navigation bar construction
               backgroundColor: Colors.cyan, //sets background of navbar
               iconSize: 40, //sets icon size
-              type: BottomNavigationBarType
-                  .fixed, //prevents weird animation stuff
+              type:
+                  BottomNavigationBarType.fixed, //prevents  animation of icons
               selectedItemColor: Colors.white,
               currentIndex: currentIndex,
               onTap: (index) => setState(() => currentIndex = index),
